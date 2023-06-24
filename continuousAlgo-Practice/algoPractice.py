@@ -20,3 +20,28 @@
 
 #?_Test result successful; see below.
 #?_Result: [1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz']
+
+#!_Day 3 of algo-practice: June 23 (2023)--Python Version
+#!_Testing to be done later.
+
+# def twoSum(arr, S):
+#     hashTable = {}
+
+#     #?_Check each element in array:
+#     for i in range(0, len(arr)):
+
+#         #?_Calculate S minus current element:
+#         sumMinusElement = S - arr[i]
+
+#         #?_Check if this number exists in hash table:
+#         if sumMinusElement in hashTable:
+#             return True
+        
+#         #?_Add the current number to the hash table
+#         hashTable[arr[i]] = True
+    
+#     return False
+
+# #?_Printing and testing suspended:
+
+# print twoSum([1, 2, 3, 4, 5], 7)

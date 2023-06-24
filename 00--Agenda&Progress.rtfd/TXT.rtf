@@ -4,12 +4,14 @@
 \f6\fnil\fcharset0 Menlo-Regular;\f7\fnil\fcharset0 Georgia-Italic;\f8\fnil\fcharset0 Menlo-Italic;
 }
 {\colortbl;\red255\green255\blue255;\red251\green2\blue7;\red255\green255\blue10;\red127\green127\blue127;
-\red243\green235\blue10;\red0\green0\blue0;\red255\green255\blue255;\red239\green239\blue239;\red254\green232\blue203;
-\red251\green2\blue7;\red230\green230\blue230;}
+\red243\green235\blue10;\red33\green255\blue255;\red33\green255\blue255;\red255\green255\blue255;\red255\green255\blue10;
+\red0\green0\blue0;\red255\green255\blue255;\red239\green239\blue239;\red254\green232\blue203;\red230\green230\blue230;
+\red179\green179\blue179;}
 {\*\expandedcolortbl;;\cssrgb\c100000\c14913\c0;\cssrgb\c99942\c98555\c0;\cssrgb\c57046\c57047\c57046;
-\cssrgb\c96264\c92423\c0;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000;\cssrgb\c94902\c94902\c94902;\cssrgb\c100000\c92644\c83367;
-\cssrgb\c100000\c14913\c0;\csgray\c92143;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww29120\viewh17700\viewkind0
+\cssrgb\c96264\c92423\c0;\cssrgb\c0\c99144\c100000;\cssrgb\c0\c99144\c100000;\cssrgb\c100000\c100000\c100000;\cssrgb\c99942\c98555\c0;
+\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000;\cssrgb\c94902\c94902\c94902;\cssrgb\c100000\c92644\c83367;\csgray\c92143;
+\csgray\c75407;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww29700\viewh19640\viewkind0
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl288\slmult1\pardirnatural\qc\partightenfactor0
 
 \f0\b\fs70 \cf0 \ul \ulc0 Goals\'97Random Order\
@@ -28,7 +30,7 @@
 \cf0 //\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97//\
 \
 
-\f0\b \cf2 \ul Section Templates:\
+\f0\b \cf2 \ul Section Template(s):\
 \
 
 \f1\b0 \cf0 \ulnone //\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97//\
@@ -89,14 +91,108 @@ Launched: June 2, 2023:
 \f1\b0 \cf0 \cb1 \ulnone \
 // Current point of progress\'97i.e., June 3, approx. 12:00 AM: 1:03:40 of 5:32:06\
 \
-// Current point of progress\'97i.e., June 5, approx. 12:00 AM: 1:14:18 of 5:32:06\
+// Current point of progress\'97i.e., June 5 [Time?]: 1:14:18 of 5:32:06\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+\cf0 // Current point of progress\'97i.e., June 23, approx. 9:27 PM: 1:16:40 of 5:32:06\
 \
 //\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97//\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
 
-\f2\i\b \cf0 >> Problem/issue at 1:04:02 time-mark:
-\f1\i0\b0  sass not loading properly.\
+\f2\i\b \cf0 \cb6 >> Problem/issue at 1:04:02 time-mark:
+\f1\i0\b0  SASS not loading properly.\
 \'97\'97>> Solved! :-) \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+
+\f2\i\b \cf0 \cb7 >> Problem/issue at 1:16:40 time-mark:
+\f1\i0\b0  Error message while trying to open React app in browser port.\
+Details: \
+>>> When is/was problem triggered? After I added line 4 in the \'93Header.js\'94 file:\cb8  \cb9 import \{ Link \} from 'react-router-dom';\cb7 \
+\cb8 \
+\cb6 >>> What I have done to try to solve problem: implementing advice from this webpage: \
+https://react.dev/warnings/invalid-hook-call-warning  \cb8 \
+\
+
+\f0\b \ul Error Message(s) In Browser:\
+
+\f1\b0 \ulnone \
+
+\f3\i ERROR\
+Link is not defined\
+ReferenceError: Link is not defined\
+    at Header (http://localhost:3001/main.0485de6dab119ca6fc02.hot-update.js:59:96)\
+    at renderWithHooks (http://localhost:3001/static/js/bundle.js:25093:22)\
+    at mountIndeterminateComponent (http://localhost:3001/static/js/bundle.js:28379:17)\
+    at beginWork (http://localhost:3001/static/js/bundle.js:29675:20)\
+    at HTMLUnknownElement.callCallback (http://localhost:3001/static/js/bundle.js:14685:18)\
+    at Object.invokeGuardedCallbackDev (http://localhost:3001/static/js/bundle.js:14729:20)\
+    at invokeGuardedCallback (http://localhost:3001/static/js/bundle.js:14786:35)\
+    at beginWork$1 (http://localhost:3001/static/js/bundle.js:34660:11)\
+    at performUnitOfWork (http://localhost:3001/static/js/bundle.js:33907:16)\
+    at workLoopSync (http://localhost:3001/static/js/bundle.js:33830:9)\
+\
+ERROR\
+Link is not defined\
+ReferenceError: Link is not defined\
+    at Header (http://localhost:3001/main.0485de6dab119ca6fc02.hot-update.js:59:96)\
+    at renderWithHooks (http://localhost:3001/static/js/bundle.js:25093:22)\
+    at mountIndeterminateComponent (http://localhost:3001/static/js/bundle.js:28379:17)\
+    at beginWork (http://localhost:3001/static/js/bundle.js:29675:20)\
+    at beginWork$1 (http://localhost:3001/static/js/bundle.js:34638:18)\
+    at performUnitOfWork (http://localhost:3001/static/js/bundle.js:33907:16)\
+    at workLoopSync (http://localhost:3001/static/js/bundle.js:33830:9)\
+    at renderRootSync (http://localhost:3001/static/js/bundle.js:33803:11)\
+    at performSyncWorkOnRoot (http://localhost:3001/static/js/bundle.js:33495:24)\
+    at flushSyncCallbacks (http://localhost:3001/static/js/bundle.js:21525:26)\
+\
+ERROR\
+Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:\
+1. You might have mismatching versions of React and the renderer (such as React DOM)\
+2. You might be breaking the Rules of Hooks\
+3. You might have more than one copy of React in the same app\
+See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.\
+Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:\
+1. You might have mismatching versions of React and the renderer (such as React DOM)\
+2. You might be breaking the Rules of Hooks\
+3. You might have more than one copy of React in the same app\
+See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.\
+    at resolveDispatcher (http://localhost:3001/main.fe708e96cff63df6267c.hot-update.js:9376:17)\
+    at Object.useContext (http://localhost:3001/main.fe708e96cff63df6267c.hot-update.js:9382:24)\
+    at useTheme (http://localhost:3001/main.fe708e96cff63df6267c.hot-update.js:2583:50)\
+    at useStyles (http://localhost:3001/main.fe708e96cff63df6267c.hot-update.js:2427:70)\
+    at WithStyles (http://localhost:3001/main.fe708e96cff63df6267c.hot-update.js:2664:21)\
+    at renderWithHooks (http://localhost:3001/static/js/bundle.js:25093:22)\
+    at updateForwardRef (http://localhost:3001/static/js/bundle.js:27664:24)\
+    at beginWork (http://localhost:3001/static/js/bundle.js:29711:20)\
+    at HTMLUnknownElement.callCallback (http://localhost:3001/static/js/bundle.js:14685:18)\
+    at Object.invokeGuardedCallbackDev (http://localhost:3001/static/js/bundle.js:14729:20)\
+\
+ERROR\
+Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:\
+1. You might have mismatching versions of React and the renderer (such as React DOM)\
+2. You might be breaking the Rules of Hooks\
+3. You might have more than one copy of React in the same app\
+See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.\
+Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:\
+1. You might have mismatching versions of React and the renderer (such as React DOM)\
+2. You might be breaking the Rules of Hooks\
+3. You might have more than one copy of React in the same app\
+See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.\
+    at resolveDispatcher (http://localhost:3001/main.fe708e96cff63df6267c.hot-update.js:9376:17)\
+    at Object.useContext (http://localhost:3001/main.fe708e96cff63df6267c.hot-update.js:9382:24)\
+    at useTheme (http://localhost:3001/main.fe708e96cff63df6267c.hot-update.js:2583:50)\
+    at useStyles (http://localhost:3001/main.fe708e96cff63df6267c.hot-update.js:2427:70)\
+    at WithStyles (http://localhost:3001/main.fe708e96cff63df6267c.hot-update.js:2664:21)\
+    at renderWithHooks (http://localhost:3001/static/js/bundle.js:25093:22)\
+    at updateForwardRef (http://localhost:3001/static/js/bundle.js:27664:24)\
+    at beginWork (http://localhost:3001/static/js/bundle.js:29711:20)\
+    at beginWork$1 (http://localhost:3001/static/js/bundle.js:34638:18)\
+    at performUnitOfWork (http://localhost:3001/static/js/bundle.js:33907:16)
+\f1\i0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+\cf0 \cb1 \
+\
 //\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97//\
 //\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97//\
 \
@@ -116,49 +212,49 @@ https://itnext.io/a-template-for-creating-a-full-stack-web-application-with-flas
 \f1\b0\fs48 \cf0 \cb1 \ulnone \
 \pard\pardeftab720\sl1040\sa640\partightenfactor0
 
-\f4\b\fs54 \AppleTypeServices\AppleTypeServicesF65539 \cf6 \cb7 \expnd0\expndtw0\kerning0
+\f4\b\fs54 \AppleTypeServices\AppleTypeServicesF65539 \cf10 \cb11 \expnd0\expndtw0\kerning0
 A Template for Creating a Full Stack Web Application with Flask, NPM, Webpack, and Reactjs\
 \pard\pardeftab720\sl480\partightenfactor0
 
-\fs40 \AppleTypeServices \cf6 Folders and Files Organisation\
+\fs40 \AppleTypeServices \cf10 Folders and Files Organisation\
 \pard\pardeftab720\sl640\partightenfactor0
 
-\f5\b0 \cf6 We will start by organizing files and folders for our project. Organizing static files such as JavaScript, stylesheets, images, and so on efficiently is always a matter of concern for all web framework. Flask recommends a specific way to organize static files in our application\
+\f5\b0 \cf10 We will start by organizing files and folders for our project. Organizing static files such as JavaScript, stylesheets, images, and so on efficiently is always a matter of concern for all web framework. Flask recommends a specific way to organize static files in our application\
 \pard\pardeftab720\sl377\partightenfactor0
 
-\f6\fs32 \cf6 \cb8 .\cb1 \
-\cb8 \uc0\u9500 \u9472 \u9472  hello_template\cb1 \
-\cb8     \uc0\u9500 \u9472 \u9472  configurations.py\cb1 \
-\cb8     \uc0\u9500 \u9472 \u9472  __init__.py\cb1 \
-\cb8     \uc0\u9500 \u9472 \u9472  README.md\cb1 \
-\cb8     \uc0\u9500 \u9472 \u9472  run.py\cb1 \
-\cb8     \uc0\u9492 \u9472 \u9472  templates\cb1 \
-\cb8         \uc0\u9500 \u9472 \u9472  hello\cb1 \
-\cb8         \uc0\u9474    \u9500 \u9472 \u9472  __init__.py\cb1 \
-\cb8         \uc0\u9474    \u9492 \u9472 \u9472  views.py\cb1 \
-\cb8         \uc0\u9500 \u9472 \u9472  __init__.py\cb1 \
-\cb8         \uc0\u9500 \u9472 \u9472  public\cb1 \
-\cb8         \uc0\u9474    \u9500 \u9472 \u9472  css\cb1 \
-\cb8         \uc0\u9474    \u9500 \u9472 \u9472  fonts\cb1 \
-\cb8         \uc0\u9474    \u9500 \u9472 \u9472  images\cb1 \
-\cb8         \uc0\u9474    \u9492 \u9472 \u9472  js\cb1 \
-\cb8         \uc0\u9492 \u9472 \u9472  static\cb1 \
-\cb8             \uc0\u9500 \u9472 \u9472  index.html\cb1 \
-\cb8             \uc0\u9500 \u9472 \u9472  __init__.py\cb1 \
-\cb8             \uc0\u9500 \u9472 \u9472  js\cb1 \
-\cb8                \uc0\u9500 \u9472 \u9472  components\cb1 \
-\cb8                \uc0\u9500 \u9472 \u9472  index.jsx\cb1 \
-\cb8                \uc0\u9492 \u9472 \u9472  routes.js\cb1 \
+\f6\fs32 \cf10 \cb12 .\cb1 \
+\cb12 \uc0\u9500 \u9472 \u9472  hello_template\cb1 \
+\cb12     \uc0\u9500 \u9472 \u9472  configurations.py\cb1 \
+\cb12     \uc0\u9500 \u9472 \u9472  __init__.py\cb1 \
+\cb12     \uc0\u9500 \u9472 \u9472  README.md\cb1 \
+\cb12     \uc0\u9500 \u9472 \u9472  run.py\cb1 \
+\cb12     \uc0\u9492 \u9472 \u9472  templates\cb1 \
+\cb12         \uc0\u9500 \u9472 \u9472  hello\cb1 \
+\cb12         \uc0\u9474    \u9500 \u9472 \u9472  __init__.py\cb1 \
+\cb12         \uc0\u9474    \u9492 \u9472 \u9472  views.py\cb1 \
+\cb12         \uc0\u9500 \u9472 \u9472  __init__.py\cb1 \
+\cb12         \uc0\u9500 \u9472 \u9472  public\cb1 \
+\cb12         \uc0\u9474    \u9500 \u9472 \u9472  css\cb1 \
+\cb12         \uc0\u9474    \u9500 \u9472 \u9472  fonts\cb1 \
+\cb12         \uc0\u9474    \u9500 \u9472 \u9472  images\cb1 \
+\cb12         \uc0\u9474    \u9492 \u9472 \u9472  js\cb1 \
+\cb12         \uc0\u9492 \u9472 \u9472  static\cb1 \
+\cb12             \uc0\u9500 \u9472 \u9472  index.html\cb1 \
+\cb12             \uc0\u9500 \u9472 \u9472  __init__.py\cb1 \
+\cb12             \uc0\u9500 \u9472 \u9472  js\cb1 \
+\cb12                \uc0\u9500 \u9472 \u9472  components\cb1 \
+\cb12                \uc0\u9500 \u9472 \u9472  index.jsx\cb1 \
+\cb12                \uc0\u9492 \u9472 \u9472  routes.js\cb1 \
 \pard\pardeftab720\sl640\partightenfactor0
 
-\f5\fs40 \cf6 \cb7 We have arranged our application in a modular manner. We achieved this by using the\'a0
-\f6\fs30 \cb8 __init__.py
-\f5\fs40 \cb7 \'a0file in our folders, which are to be used as modules.\
+\f5\fs40 \cf10 \cb11 We have arranged our application in a modular manner. We achieved this by using the\'a0
+\f6\fs30 \cb12 __init__.py
+\f5\fs40 \cb11 \'a0file in our folders, which are to be used as modules.\
 \pard\pardeftab720\partightenfactor0
-\cf6 \
+\cf10 \
 \pard\pardeftab720\sl640\partightenfactor0
 
-\f7\i\fs42 \cf6 \cb9 To see all packages which Flask depends on, you may install Flask with the command\'a0
+\f7\i\fs42 \cf10 \cb13 To see all packages which Flask depends on, you may install Flask with the command\'a0
 \f8\fs31\fsmilli15750 pip install -U flask.
 \f7\fs42 The\'a0
 \f8\fs31\fsmilli15750 -U
@@ -192,7 +288,7 @@ A Template for Creating a Full Stack Web Application with Flask, NPM, Webpack, a
 \cf2 \ul \ulc2 Source(s):\ulnone  Coding Dojo\'92s \'93Basic 13\'94, and CoderByte\'92s 18 \ul \
 Launched: June 15, 2023:\
 \
-\cf6 \ulnone General Planning:\
+\cf10 \ulnone General Planning:\
 \
 >> Remember, that the basic 13 plus CoderByte 18 = 31\
 \'97\'97>> And remember that the above are mostly for general coding vs. data science.\
@@ -283,7 +379,7 @@ ii)\'97Finally, after that failed, in the lower (very) thin border, I clicked\'9
 \cf0 \cb1 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
 
-\f2\i\b \cf10 \cb11 let myArray = [1, 2, 3, 4, 5];\
+\f2\i\b \cf2 \cb14 let myArray = [1, 2, 3, 4, 5];\
 var min = myArray[0];\
 var max = myArray[0];\
 var avg = 0;\
@@ -314,13 +410,29 @@ console.log(" ; and finally, your average is : " + avg + " Thanks for visiting. 
 \f1\i0\b0  Testing issue from yesterday is solved. All I have to do is to run the program via the output tab of the terminal.\
 \
 //\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97//\
-//\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97//
-\f3\i \
+//\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97//\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+\cf2 \cb3 >> Day / progress note 4 (June 23): \
+>> Times:\
+\'97>> Starting at approx. 4:45 PM\
+\'97>> End: [\ul Add Here\ulnone ] \
+\
+\cb15 >>> Detail 1: Just a general continuation of practice with algos\cb3  // DONE; via Python algo file\
+\cb15 >>> Detail 2: I\'92m also thinking of resuming the React portfolio tutorial/project.\cb3  // DONE\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+\cf0 \cb1 \
+//\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97//\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
 
-\f1\i0 \cf0 \
+\f2\i\b \cf0 \ul \ulc0 Add Issues Here And Progress Notes Here\
 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+\cf0 \ulnone >> Problem/issue and solution1:
+\f1\i0\b0  [Add details here.]\
 \
-\
+//\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97//\
+//\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97//\
 \
 }

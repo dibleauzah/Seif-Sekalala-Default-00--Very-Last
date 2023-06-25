@@ -52,4 +52,15 @@
 def sumNested(arr):
     result = 0
 
-    #?_ ...
+    #?_ sum up all numbers in the array:
+    for i in range(0, len(arr)):
+
+        #?_If element is a nested array, sum up all its elements:
+        if type(arr[i]) is not int:
+            result += sumNested(arr[i])
+        else:
+            result += arr[i]
+    
+    return result
+
+print(sumNested([[1, 2, 3, 4, 5], [2, 5], 5, 90, [5, 9, 0], 4, 2]));

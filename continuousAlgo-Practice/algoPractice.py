@@ -45,3 +45,11 @@
 # #?_Printing and testing suspended:
 
 # print twoSum([1, 2, 3, 4, 5], 7)
+
+#!_Day 4 of algo-practice: June 24 (2023)--Python Version
+#!_Testing to be done later.
+
+def sumNested(arr):
+    result = 0
+
+    #?_ ...

@@ -13,3 +13,5 @@ ReactDOM.render(
   </Router>,
     document.getElementById('root') 
 );
+
+//!----------------// Resumption of Coding Practice--Aug 15, 2023.

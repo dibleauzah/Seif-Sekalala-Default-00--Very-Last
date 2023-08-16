@@ -14,3 +14,4 @@ min, max, avg = min_max_andAvg(numbers)
 
 puts "Hi! Please note that your minimum is #{min}, your max is #{max}, and your average is #{avg}. Have a great day! :-)"
 
+test..

@@ -74,8 +74,6 @@
 //     return arr[i];
 // }
 
-
-
 // console.log(([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
 //?_In case of any difficulties, trouble-shooting / corrections suspended, if the above print command doesn't work! 
 //?_         ''              ... trouble-shooting tb-continued later/asap.
@@ -91,16 +89,17 @@
 
 //!_Resumption of Coding Practice--Aug 15, 2023.
 
-function justTesting(arr){
-    for (let i = 0; i <= arr.length; i++){
-        console.log(i);
-    }
-    return;
-}
+// function justTesting(arr){
+//     for (let i = 0; i <= arr.length; i++){
+//         console.log(i);
+//     }
+//     return;
+// }
 
-console.log(justTesting([1, 2, 3]));
+// console.log(justTesting([1, 2, 3]));
 
 //?_Test successful! Whoo-hoo!
 
 //*-------------------------------------//
 
+console.log("Test");

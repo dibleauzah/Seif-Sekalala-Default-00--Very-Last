@@ -11,14 +11,6 @@ https://docs.amplication.com/how-to/custom-code
   */
 import { InputType, Field } from "@nestjs/graphql";
 import { ApiProperty } from "@nestjs/swagger";
-import { IsString, IsOptional, ValidateNested } from "class-validator";
-import { ListingUpdateManyWithoutUsersInput } from "./ListingUpdateManyWithoutUsersInput";
-import { Type } from "class-transformer";
-import { IsJSONValue } from "@app/custom-validators";
-import { GraphQLJSON } from "graphql-type-json";
-import { InputJsonValue } from "../../types";
-import { TripUpdateManyWithoutUsersInput } from "./TripUpdateManyWithoutUsersInput";
-import { WishlistUpdateManyWithoutUsersInput } from "./WishlistUpdateManyWithoutUsersInput";
 
 @InputType()
 class UserUpdateInput {
@@ -46,18 +38,7 @@ class UserUpdateInput {
 
   @ApiProperty({
     required: false,
-    type: () => ListingUpdateManyWithoutUsersInput,
-  })
-  @ValidateNested()
-  @Type(() => ListingUpdateManyWithoutUsersInput)
-  @IsOptional()
-  @Field(() => ListingUpdateManyWithoutUsersInput, {
-    nullable: true,
-  })
-  listings?: ListingUpdateManyWithoutUsersInput;
 
-  @ApiProperty({
-    required: false,
     type: String,
   })
   @IsString()
@@ -79,18 +60,7 @@ class UserUpdateInput {
 
   @ApiProperty({
     required: false,
-    type: () => TripUpdateManyWithoutUsersInput,
-  })
-  @ValidateNested()
-  @Type(() => TripUpdateManyWithoutUsersInput)
-  @IsOptional()
-  @Field(() => TripUpdateManyWithoutUsersInput, {
-    nullable: true,
-  })
-  trips?: TripUpdateManyWithoutUsersInput;
 
-  @ApiProperty({
-    required: false,
     type: String,
   })
   @IsString()
@@ -100,17 +70,6 @@ class UserUpdateInput {
   })
   username?: string;
 
-  @ApiProperty({
-    required: false,
-    type: () => WishlistUpdateManyWithoutUsersInput,
-  })
-  @ValidateNested()
-  @Type(() => WishlistUpdateManyWithoutUsersInput)
-  @IsOptional()
-  @Field(() => WishlistUpdateManyWithoutUsersInput, {
-    nullable: true,
-  })
-  wishlists?: WishlistUpdateManyWithoutUsersInput;
 }
 
 export { UserUpdateInput as UserUpdateInput };

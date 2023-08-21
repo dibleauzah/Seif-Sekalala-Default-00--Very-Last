@@ -1,11 +1,11 @@
 import * as React from "react";
+
 import {
   Show,
   SimpleShowLayout,
   ShowProps,
   DateField,
   TextField,
-} from "react-admin";
 
 export const UserShow = (props: ShowProps): React.ReactElement => {
   return (
@@ -18,6 +18,7 @@ export const UserShow = (props: ShowProps): React.ReactElement => {
         <TextField label="Roles" source="roles" />
         <DateField source="updatedAt" label="Updated At" />
         <TextField label="Username" source="username" />
+
       </SimpleShowLayout>
     </Show>
   );

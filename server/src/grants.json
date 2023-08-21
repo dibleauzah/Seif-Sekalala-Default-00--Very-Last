@@ -28,5 +28,6 @@
     "resource": "User",
     "action": "read:any",
     "attributes": "*"
+
   }
 ]

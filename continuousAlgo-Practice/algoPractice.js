@@ -13,7 +13,7 @@
 ?_Console.log ([algoName]);
 */
 
-//!_Day 2 of Algo-Practice: June 16 (2023)--JS Version.
+//!_Day X of Algo-Practice: June X (2023)--JS Version.
 
 // let myArray = [1, 2, 3, 4, 5];
 // var min = myArray[0];
@@ -102,4 +102,50 @@
 
 //*-------------------------------------//
 
-console.log("Test");
+//?__Aug 24, 2023 
+
+//?_Goals/"parameters" for this day/session's practice: 
+//*_>> Serious resumption of consistent algorithm- and general coding practice.
+
+//!_Unfortunately, I didn't finish this entry on its then-current date (Aug 24).
+
+//*-------------------------------------//
+
+//?__Aug 25, 2023 
+
+//!_This date was also skipped--unfortunately!
+
+//*-------------------------------------//
+
+//?_Aug 26, 2023
+
+//?_Goals/"parameters" for this day/session's practice: 
+//*_>> Resumption warm-up via "Min, Max, and Avg"--Via 'Open Book' Style:
+
+//!_No. 11--Max, Min, Average: Given an array, print the max, min and average values for that array.
+
+// function PrintMaxMinAverageArrayVals(arr) {
+//     var min = Infinity;
+//     var max = -Infinity;
+//     var sum = 0;
+//     for (var i = 0; i < arr.length; i++) {
+//       sum = sum + arr[i];
+//       if (arr[i] > max) {
+//         max = arr[i];
+//       }
+//       else if (arr[i] < min) {
+//         min = arr[i];
+//       }
+//     }
+//     var average = sum / arr.length;
+//     console.log('Min: ' + min + ' Max: ' + max + ' Average: ' + average)
+//   }
+  
+//   PrintMaxMinAverageArrayVals([1, 800, 58, 899, 2000, 1855, 100]);
+
+//*-------------------------------------//
+
+
+
+
+

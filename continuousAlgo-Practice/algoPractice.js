@@ -145,6 +145,17 @@
 
 //*-------------------------------------//
 
+//?_Aug 29 to 30, 2023
+
+//?_Goals/"parameters" for this day/session's practice: 
+//*_>> Per Agenda and Progress Text-Note:
+
+//!_1)--"Swap negative values in array."
+
+
+
+//!_2)--"Is N a prime?"
+
 
 
 

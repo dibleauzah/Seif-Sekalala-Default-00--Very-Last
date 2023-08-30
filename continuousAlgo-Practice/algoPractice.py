@@ -21,6 +21,8 @@
 #?_Test result successful; see below.
 #?_Result: [1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz']
 
+#*-------------------------------------//
+
 #!_Day 3 of algo-practice: June 23 (2023)--Python Version
 #!_Testing to be done later.
 
@@ -46,6 +48,8 @@
 
 # print twoSum([1, 2, 3, 4, 5], 7)
 
+#*-------------------------------------//
+
 #!_Day 4 of algo-practice: June 24 (2023)--Python Version
 #!_Testing to be done later.
 
@@ -64,3 +68,16 @@ def sumNested(arr):
     return result
 
 print(sumNested([[1, 2, 3, 4, 5], [2, 5], 5, 90, [5, 9, 0], 4, 2]));
+
+#*-------------------------------------//
+
+#?_Aug 29 to 30, 2023
+
+#?_Goals/"parameters" for this day/session's practice: 
+#*_>> Per Agenda and Progress Text-Note:
+
+#!_1)--"3 Vowels."
+
+#!_2)--"Min, Max, Avg"
+
+#!_3)--"Light-Bulbs".

@@ -152,11 +152,35 @@
 
 //!_1)--"Swap negative values in array."
 
+//?_Finish ASAP!
 
 
-//!_2)--"Is N a prime?"
+//!_2)--"Is N a prime?" 
+
+//?_Ditto this one!
 
 
+//*-------------------------------------//
 
+let min = Infinity;
+let max = -Infinity;
+let sum = 0;
+
+function minMaxAvg([arr]){
+    for (let i = 0; i <= arr.length; i++){
+        sum = arr[i] + sum
+    }
+        if (min < arr[i]){
+            min = arr[i];
+        } else {
+        if (max > arr[i]){
+            max = arr[i];
+        }
+    let avg = sum / arr.length;
+        }
+        return ("Hi! Please note that you min is " + min + ", your max is " + max + " and your average is " + avg + " Thanks, and have an awesome day! :-)");
+}
+
+minMaxAvg([1, 2, 3, 4, 5]);
 
 
